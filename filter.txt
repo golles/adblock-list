@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: Sander's List
-! Last modified: 9 Jul 2022 12:45 GMT+2
+! Last modified: 18 Feb 2023 16:45 GMT+2
 ! Expires: 10 days (update frequency)
 !
 !--------Adds--------!
@@ -9,6 +9,7 @@ racefans.net##.text-above-ad
 nu.nl##.adblocker
 tweakers.net##.notification.bar.notice
 tweakers.net##.noTrackingMessage
+tweakers.net##.widebnr
 tvgids.nl###notification
 telegraaf.nl##.popup-overlay
 buienradar.nl##.bblocked
