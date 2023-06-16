@@ -4,20 +4,19 @@ set -e
 
 # Ads.
 ADS=$(cat <<'EOF'
-racefans.net##.text-above-ad
+regiopurmerend.nl##.apPluginContainer
+tweakers.net##.widebnr
 EOF
 )
 
-# Notices are elements that tell to turn off ad blockers.
+# Notices are elements that tell you to turn off ad blockers.
 NOTICES=$(cat <<'EOF'
 nu.nl##.adblocker
 tweakers.net##.notification.bar.notice
 tweakers.net##.noTrackingMessage
-tweakers.net##.widebnr
 tvgids.nl###notification
 telegraaf.nl##.popup-overlay
 buienradar.nl##.bblocked
-regiopurmerend.nl##.apPluginContainer
 EOF
 )
 
