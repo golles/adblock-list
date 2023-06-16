@@ -1,0 +1,29 @@
+name: Update filter
+
+on:
+  schedule:
+    - cron: '22 3 * * 5'
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    name: Update filter.txt file
+
+    steps:
+      - name: checkout
+        uses: actions/checkout@v3
+
+      - name: Update filter
+        run: |
+          ./make_filter.sh
+
+      - name: Commit changes
+        run: |
+          if [[ -n $(git diff) ]]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add filter.txt
+            git commit -m "Update filter.txt"
+            git push origin gh-pages
+          fi
