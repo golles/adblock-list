@@ -22,7 +22,7 @@ EOF
 
 cat <<EOF | tee filter.txt
 [Adblock Plus 2.0]
-! Title: Sander\'s List
+! Title: Sander's List
 ! Last modified: $(date -Ru)
 ! Expires: 30 days (update frequency)
 !
