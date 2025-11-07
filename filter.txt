@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: Sander's List
-! Last modified: Fri, 31 Oct 2025 03:35:50 +0000
+! Last modified: Fri, 07 Nov 2025 03:35:21 +0000
 ! Expires: 30 days (update frequency)
 !
 !--------Ads--------------------!
